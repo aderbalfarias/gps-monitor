@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{4605C778-A12A-4586-B7C8-E1567480B2F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{55711AA9-7B35-4D7F-BD64-C763E5CAF93E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{4F8A8CB4-128D-4C93-9A16-87324C49C236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{3C632977-86B3-482B-B25F-24E04062372D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaftec.Gps.Monitor.Application", "Imaftec.Gps.Monitor.Application\Imaftec.Gps.Monitor.Application.csproj", "{225D11CB-5035-4EE6-B6A0-11B7B1037F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaftec.Gps.Monitor.Domain", "Imaftec.Gps.Monitor.Domain\Imaftec.Gps.Monitor.Domain.csproj", "{330E4443-4A0E-41A3-83B6-051ECA18D644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaftec.Gps.Monitor.Data", "Imaftec.Gps.Monitor.Data\Imaftec.Gps.Monitor.Data.csproj", "{8CAD0253-2C9E-4BFF-BE2F-EAB583A7A374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imaftec.Gps.Monitor.Mvc", "Imaftec.Gps.Monitor.Mvc\Imaftec.Gps.Monitor.Mvc.csproj", "{EDDB57B2-9534-4F5D-BA4C-D6EC36568BE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{225D11CB-5035-4EE6-B6A0-11B7B1037F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225D11CB-5035-4EE6-B6A0-11B7B1037F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225D11CB-5035-4EE6-B6A0-11B7B1037F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225D11CB-5035-4EE6-B6A0-11B7B1037F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{330E4443-4A0E-41A3-83B6-051ECA18D644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{330E4443-4A0E-41A3-83B6-051ECA18D644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{330E4443-4A0E-41A3-83B6-051ECA18D644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{330E4443-4A0E-41A3-83B6-051ECA18D644}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAD0253-2C9E-4BFF-BE2F-EAB583A7A374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAD0253-2C9E-4BFF-BE2F-EAB583A7A374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAD0253-2C9E-4BFF-BE2F-EAB583A7A374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAD0253-2C9E-4BFF-BE2F-EAB583A7A374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDDB57B2-9534-4F5D-BA4C-D6EC36568BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDDB57B2-9534-4F5D-BA4C-D6EC36568BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDDB57B2-9534-4F5D-BA4C-D6EC36568BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDDB57B2-9534-4F5D-BA4C-D6EC36568BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{225D11CB-5035-4EE6-B6A0-11B7B1037F91} = {55711AA9-7B35-4D7F-BD64-C763E5CAF93E}
+		{330E4443-4A0E-41A3-83B6-051ECA18D644} = {4F8A8CB4-128D-4C93-9A16-87324C49C236}
+		{8CAD0253-2C9E-4BFF-BE2F-EAB583A7A374} = {3C632977-86B3-482B-B25F-24E04062372D}
+		{EDDB57B2-9534-4F5D-BA4C-D6EC36568BE5} = {4605C778-A12A-4586-B7C8-E1567480B2F5}
+	EndGlobalSection
+EndGlobal

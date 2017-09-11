@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<br/>
+<div id="mapa" style="height: 800px; width: 100%"></div>
+
+@section Scripts {
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    @Scripts.Render("~/bundles/maps")
+}
