@@ -28,8 +28,6 @@ bld/
 #wwwroot/
 
 
-/Files
-
 # MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
@@ -243,3 +241,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+
+/DDDExample.Mvc/Files
