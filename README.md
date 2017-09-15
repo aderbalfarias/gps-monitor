@@ -1,3 +1,3 @@
 # GpsMonitor
 
-Project developed with DDD and MVC
+Project developed for test of DDD with MVC in 2015
