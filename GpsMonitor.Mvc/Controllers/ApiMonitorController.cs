@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using GpsMonitor.Mvc.Models;
+using System.Collections.Generic;
 using System.Web.Http;
-using GpsMonitor.Mvc.Models;
 
 namespace GpsMonitor.Mvc.Controllers
 {
@@ -9,7 +9,7 @@ namespace GpsMonitor.Mvc.Controllers
         // GET: api/ApiMonitor
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new[] { "value1", "value2" };
         }
 
         // GET: api/ApiMonitor/5
@@ -26,7 +26,7 @@ namespace GpsMonitor.Mvc.Controllers
 
 
             return "Imei: " + localizacao.Imei + ", latitude: " + localizacao.Latitude + ", longitude" + localizacao.Longitude;
-            
+
         }
 
         // POST: api/ApiMonitor
